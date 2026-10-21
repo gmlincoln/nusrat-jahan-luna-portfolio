@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
 @layer base {
   html {
@@ -11,7 +10,6 @@
   
   body {
     @apply bg-paper-50 text-navy-900 font-sans selection:bg-indigo-100 selection:text-navy-900;
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 
   h1, h2, h3, h4, h5, h6 {
